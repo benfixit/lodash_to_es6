@@ -8,4 +8,4 @@ const compact = arr => {
     return arr.filter(x => x);
 }
 
-console.log(compact([0, 1, false, 2, '', 3]))
+export default compact

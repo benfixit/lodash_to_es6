@@ -11,8 +11,4 @@ const chunk = (array, size) => {
     })
 }
 
-//Test Cases
-console.log(chunk([3, 6, 2, 80, 23], 2))
-console.log(chunk([3, 6, 2, 80, 23], 3))
-console.log(chunk([3, 6, 2, 80, 23, 30, 49, 10], 4))
-console.log(chunk([3, 6, 2, 80, 23, 30, 49, 10], 5))
+export default chunk
